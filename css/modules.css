@@ -1,0 +1,38 @@
+p {
+    text-align: center;
+}
+.a p {
+    padding: 33px;
+}
+.b p {
+    padding: 70px;
+}
+.c p {
+    padding: 55px;
+}
+.d p {
+    padding: 55px;
+}
+.e p, .f p, .g p, .h p {
+    padding: 120px;
+    position: relative;
+    right: 17px;
+}
+.i p {
+    padding: 30px;
+}
+
+@media(min-width: 768px) {
+    .a p {
+        padding: 38px 0;
+    }
+    .b p {
+        padding: 270px 0;
+    }
+    .c p, .d p {
+        padding: 95px 0;
+    }
+    .i p {
+        padding: 65px 0;
+    }  
+}
