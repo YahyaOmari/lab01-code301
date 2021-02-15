@@ -1,6 +1,6 @@
 div {
-    border: 3.5px solid black;
-    background-color: rgb(217, 255, 0);
+    border: 1px solid gray;
+    background-color: rgb(230, 223, 223);
     width: 100%;
 }
 .a {
@@ -22,8 +22,8 @@ div {
 
 @media(min-width: 768px) {
     div {
-        border: 3.5px solid rgb(155, 227, 255);
-        background-color: maroon
+        border: 1px solid gray;
+        background-color: rgb(230, 223, 223);
     }
     .a {
         height: 100px;
