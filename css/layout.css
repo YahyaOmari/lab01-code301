@@ -1,69 +1,49 @@
-div {
+
+.a{
+    width: 480px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    display: block;
+    border: 1px solid gray;
+    background-color: rgb(230, 223, 223);-color: rgb(230, 223, 223);
+}
+.b{
+    width: 480px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    display: block;
+    border: 1px solid gray;
+    background-color: rgb(230, 223, 223);-color: rgb(230, 223, 223);
+}
+.c , .d{
+    width: 480px;
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+    display: block;
+    border: 1px solid gray;
+    background-color: rgb(230, 223, 223);-color: rgb(230, 223, 223);
+}
+.e , .f , .g , .h{
+    width: 240px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    display: block;  
+    float: left;
     border: 1px solid gray;
     background-color: rgb(230, 223, 223);
-    width: 100%;
 }
-.a {
-    height: 75px;
-}
-.b {
-    height: 150px;
-}
-.c, .d {
-    height: 125px;
-}
-.e, .f, .g, .h {
-    width: 50%;
-    height: 250px;
-}
-.i {
+.i{
+    width: 480px;
     height: 80px;
+    text-align: center;
+    line-height: 80px;
+    display: block;  
+    float: left;
+    border: 1px solid gray;
+    background-color: rgb(230, 223, 223);
 }
 
-@media(min-width: 768px) {
-    div {
-        border: 1px solid gray;
-        background-color: rgb(230, 223, 223);
-    }
-    .a {
-        height: 100px;
-        grid-column: 1 / 6;
-    }
-    .b {
-        height: 600px;
-        grid-column: 1 / 2;
-    }
-    .c {
-        height: 200px;
-        grid-column: 2 / 4;
-    }
-    .d {
-        height: 200px;
-        grid-column: 4 / 6;  
-    }
-    .e {
-        height: 250px;
-        width: 100%;
-        grid-column-start: 2;
-    }
-    .f {
-        height: 250px;
-        width: 100%;
-        grid-column: 3 / 3;
-    }
-    .g {
-        height: 250px;
-        width: 100%;
-        grid-column: 4 / 4;
-    }
-    .h {
-        height: 250px;
-        width: 100%;
-        grid-column: 5 / 5;
-    }
-    .i {
-        height: 150px;
-        width: 100%;
-        grid-column: 2 / 6;
-    }
-}
